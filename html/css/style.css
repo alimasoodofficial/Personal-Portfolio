@@ -1,10 +1,6 @@
 /* ------------------------------------------------------------------------------
 
-  Template Name: Ramsay
-  Description: Ramsay - Creative Personal Onepage HTML Template
-  Author: Paul_tf
-  Author URI: http://themeforest.net/user/paul_tf
-  Version: 1.0
+
   
   1.  Global
 
@@ -212,6 +208,14 @@ h6 a:hover,
 
 strong{
   font-weight: 600;
+}
+
+.main-pic{
+  /* width: 300px; */
+  object-fit: cover;
+  /* object-position: left; */
+
+
 }
 
 p,
@@ -1227,6 +1231,7 @@ a.brand:focus{
   letter-spacing: 0.1em;
 }
 
+
 .title{
   letter-spacing: -0.025em;
   line-height: 1.33333;
@@ -1404,7 +1409,22 @@ a.brand:focus{
   color: #fff;
   text-align: right;
 }
+  .picContainer{
+  justify-content: end;
+      }    
 
+@media (max-width: 575px){
+  .main-heading{
+    font-size: 40px;
+  }
+  .picContainer{
+align-items: end;
+  }
+  .main-pic{
+    height: 300px;  
+    
+  }
+}
 @media (min-width: 576px){
   .experience-info{
     margin-top:-1px;
